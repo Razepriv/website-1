@@ -1,0 +1,54 @@
+.page{
+    height: 900px;
+    width: 1210px;
+    
+    margin: auto;
+}
+.header{
+    height: 100px;
+    width: 1210px;
+   
+    font-family:sans-serif;
+    font-style: sans-serif;
+}
+.subhead{
+    height: 200px;
+    width: 1210px;
+    
+
+}
+
+.content{
+    height: 600px;
+    width: 1210px;
+    
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 10px;
+    font-family:sans-serif;
+    font-style: sans-serif;
+
+}
+.content > div{
+    padding: 5px;
+    border-radius: 2px;
+    display: grid;
+    place-items: center;
+
+}
+
+.ul{
+    position: absolute;
+    right: 380px;
+    top: 0px;
+}
+.subhead{
+    text-align: center;
+}
+.heading2{
+    font-size: 60px;
+    font-family:sans-serif;
+    font-style: sans-serif;
+}
